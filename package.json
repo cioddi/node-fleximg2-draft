@@ -1,0 +1,16 @@
+{
+  "name": "fleximg2",
+  "version": "0.0.0",
+  "description": "exact responsive image server",
+  "main": "index.js",
+  "scripts": {
+  "test": "node test/main"
+  },
+  "repository": "",
+  "author": "Max Tobias Weber",
+  "license": "MIT",
+  "dependencies": {
+    "selenium": "*",
+    "mongoose": "*"
+  }
+}
