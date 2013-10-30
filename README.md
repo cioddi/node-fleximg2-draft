@@ -11,12 +11,11 @@ what we want to know
 
 - width
 - height
-- crop:{
--   x
--   y
--   width
--   height
-  }
+- crop:
+  -   x
+  -   y
+  -   width
+  -   height
 
 We can assign exactly on set of [width,height,crop_info] to each set of [page_url,window_width,window_height,img_src]. 
 
