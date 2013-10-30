@@ -20,8 +20,6 @@ what we want to know
 
 We can assign exactly on set of [width,height,crop_info] to each set of [page_url,window_width,window_height,img_src]. 
 
-
-
 ### how it works
 
 - ```node refreshdb``` will crawl the Webpages at the given urls with different browser dimensions (200x400,250x400,300x400,...,200x450,300x450) and create a JSON object for every image and every dimension combinations on any page. All the data is written to a database.
@@ -33,10 +31,12 @@ We can assign exactly on set of [width,height,crop_info] to each set of [page_ur
 - no DOM rewriting
 - only need to include one script no code change at all
 - decide img width height and cropping just by applying css
+- after the session is set it would work even well with Browsers lookahead asset parsers 
 
 ### disadvantages
 
 - not suitable for websites where the content changes frequently every content change requires reindexing
+- could require some flexible and performant hardware to be fast
 
 ## Requirements
 
