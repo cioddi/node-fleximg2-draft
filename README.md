@@ -57,9 +57,10 @@ We can assign exactly on set of [width,height,crop_info] to each set of [page_ur
 - not suitable for websites where the content changes frequently every content change requires reindexing
 - could require some flexible and performant hardware to be fast
 
-## Requirements
+## (prototype) Requirements
 
 - mongodb
+- selenium
 - node.js
 
 ## Usage
